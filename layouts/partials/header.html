@@ -35,4 +35,33 @@
             </div>
         </div>
     </nav>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburgerbtn = document.getElementById('hamburgerbtn');
+            const overlay = document.getElementById('overlay');
+            const mobileMenu = document.getElementById('mobileMenu');
+            const menuLinks = overlay.querySelectorAll('a');
+
+            function toggleMenu() {
+                hamburgerbtn.classList.toggle('active');
+                overlay.classList.toggle('opacity-0');
+                overlay.classList.toggle('pointer-events-none');
+            }
+
+            hamburgerbtn.addEventListener('click', toggleMenu);
+
+            // Close menu when a link is clicked
+            menuLinks.forEach(link => {
+                link.addEventListener('click', toggleMenu);
+            });
+
+            // Close menu when overlay is clicked
+            overlay.addEventListener('click', function(e) {
+                if (e.target === overlay) {
+                    toggleMenu();
+                }
+            });
+        });
+    </script>
 </header>
