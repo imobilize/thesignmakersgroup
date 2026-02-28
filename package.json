@@ -6,7 +6,7 @@
   "repository": "https://github.com/opera7133/tella",
   "author": "wamo <ainznino@pm.me>",
   "license": "MIT",
-   "scripts": {
+  "scripts": {
     "start": "concurrently npm:watch:*",
     "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
     "watch:hugo": "hugo server",
@@ -16,13 +16,14 @@
   "keywords": [],
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.11",
-    "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/forms": "^0.5.11",
-    "tailwindcss": "^4.1.11",
+    "@tailwindcss/typography": "^0.5.19",
     "alpinejs": "^3.12.0",
     "autoprefixer": "^10.4.14",
     "concurrently": "^7.6.0",
+    "daisyui": "^5.5.19",
     "postcss": "^8.4.21",
-    "postcss-cli": "^10.1.0"
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^4.1.11"
   }
 }
