@@ -1,0 +1,27 @@
+<div id="about" class="w-full min-h-screen flex flex-col justify-center items-center py-12">
+    <div class="self-center text-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px-0">
+        <h2 class="font-bold tracking-wider text-gray-800 text-4xl mb-4">Passionate About Signage</h2>
+        <div class="font-light text-black text-xl">
+            We acquire and support established, profitable sign manufacturing companies across the United Kingdom.
+        </div>
+        <div class="splide" role="group" aria-label="Top Page Slides">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    {{ range .Site.Data.slide }}
+                    <li class="splide__slide">
+                        {{ $slide := resources.Get .image }}
+
+                        <img src="{{ $slide.RelPermalink }}" alt="{{ .alt }}">
+                        <div class="s-fade-txt">
+                            <h2 class="text-5xl font-medium {{ or .color " text-white" }}">{{ .title }}</h2>
+                        </div>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+
+        <!-- <img class="my-12 max-w-full mx-auto" src="/img/undraw_asset_selection_ix3v.svg" alt="AWE.SOME"> -->
+    </div>
+
+</div>

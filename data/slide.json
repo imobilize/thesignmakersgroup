@@ -1,11 +1,27 @@
 [
   {
-    "title": "Tella, A Hugo theme for Companies.",
-    "image": "img/slide/slide01.jpg"
+    "title": "",
+    "image": "images/slide/canopy_entrance_london2_900x1200.jpg",
+    "color": "text-white"
   },
   {
-    "title": "Sample text here...",
-    "image": "img/slide/slide02.jpg",
+    "title": "",
+    "image": "images/slide/1troudabour_wembley_park_theatre_signs_900x1200.jpg",
+    "color": "text-black"
+  },
+  {
+    "title": "",
+    "image": "images/slide/arsenal_sign8_900x1200.jpg",
+    "color": "text-black"
+  },
+  {
+    "title": "",
+    "image": "images/slide/five_points_brewwery_signs4_064d9295-c49f-43eb-a48d-454332102f8f_900x1200.jpg",
+    "color": "text-black"
+  },
+  {
+    "title": "",
+    "image": "images/large_outdoor_letters_900x1200.jpg",
     "color": "text-black"
   }
 ]

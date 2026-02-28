@@ -1,5 +1,5 @@
-baseURL = "https://example.com"
-title = "Tella"
+baseURL = "https://thesignmakersgroup.com"
+title = "The Sign Makers Group"
 author = "username"
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -25,15 +25,15 @@ enableRobotsTXT = true
   googleFonts = true
 
   [params.logo]
-    main = "img/logo/logo.svg"
-    alt = "Tella Logo"
+    main = "images/logo/sign-makers-logo.png"
+    alt = "The Sign Makers Group"
 
     # The size parameter is the class name of tailwindcss
     # https://tailwindcss.com/
     size = "h-14"
 
   [params.site]
-    name = "Tella"
+    name = "The Sign Makers Group"
 
   [params.icon]
     # If you want to use FontAwesome, set this parameter to true.
@@ -71,9 +71,9 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    identifier = "products"
-    name = "Products"
-    url = "/products/"
+    identifier = "about"
+    name = "About"
+    url = "/about/"
     weight = 1
 
   [[menu.main]]
@@ -83,16 +83,10 @@ enableRobotsTXT = true
     weight = 2
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 3
-
-  [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 3
 
   # Footer Menu
   [[menu.footer]]

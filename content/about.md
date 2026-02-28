@@ -5,20 +5,61 @@ date: "2019-02-28"
 author: "Hugo Authors"
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+# What Makes Us Different
 
-Hugo makes use of a variety of open source projects including:
+### Sector Focus
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+We specialise solely in sign manufacturing — we understand production workflows, installation logistics, materials, margins, and customer acquisition.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+### Decentralised Model
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+We do not strip identity or brand value. Companies continue operating under their established names.
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+### Operational Support
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+We provide:
+
+* Financial oversight
+* Procurement leverage
+* Shared marketing capability
+* Production optimisation
+* Succession planning
+* Leadership development
+* Long-Term Capital
+
+We are builders, not flippers. Our model is long-term ownership and steady growth.
+
+## Acquisition Criteria
+We are actively acquiring:
+
+* UK-based sign manufacturing companies
+* Profitable businesses
+* Strong local reputation
+* Established management or skilled workforce
+* Turnover typically £500k – £5m
+* Commercial signage focus (internal, external, illuminated, fabrication)
+
+### Situations We Support:
+
+* Retirement / succession
+* Partial exits
+* Growth partnerships
+* Group integration
+
+#### You’ve built something valuable. We help you protect and grow it.
+
+We understand that selling your business is not just a financial decision — it’s personal.
+
+Our approach:
+
+* Confidential discussions
+* Straightforward valuation structure
+* Flexible deal terms
+* Fast completion
+* Respect for legacy
+
+You can:
+
+* Exit fully
+* Stay involved
+* Retain a minority stake
