@@ -1,18 +1,17 @@
 [
   {
-    "title": "Simple",
-    "description": "All the bare necessities are there.",
-    "icon": "bi bi-box"
+    "title": "Parkinson Signs",
+    "website": "https://thesignmakers.com",
+    "logo": "/images/brand/parkinson-signs.jpg"
   },
   {
-    "title": "Fast",
-    "description": "Light weight and fast loading speed.",
-    "icon": "bi bi-lightning-charge"
+    "title": "Goodwin & Goodwin",
+    "website": "https://goodwinandgoodwin.com",
+    "logo": "/images/brand/goodwin-and-goodwin.jpg"
   },
   {
-    "title": "Github",
-    "description": "Please fork the Github repository and contribute to this theme!",
-    "link": "https://github.com/opera7133/tella",
-    "icon": "bi bi-github"
+    "title": "Footprint Group",
+    "website": "https://footprintgroup.uk/",
+    "logo": "/images/brand/footprint-group.jpg"
   }
 ]
