@@ -16,14 +16,16 @@
             <header class="mb-4 lg:mb-6 not-format">
                 <address class="flex items-center mb-6 not-italic">
                     <div class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
-                        <img class="mr-4 w-16 h-16 rounded-full"
-                            src="https://flowbite.com/docs/images/people/profile-picture-2.jpg" alt="Jese Leos">
+                          {{- $src := resources.Get "images/team/andre-barrett.jpg" -}}
+
+                        <img class="mr-4 w-32 h-32 rounded-full object-cover"
+                            src="{{ $src.RelPermalink }}" alt="Andre Barrett">
                         <div>
-                            <span rel="author" class="text-xl font-bold text-gray-900 dark:text-white">Andre
+                            <span rel="author" class="text-xl font-semibold text-gray-900 dark:text-white">Andre
                                 Barrett</span>
-                            <p class="text-base text-gray-500 dark:text-gray-400">Business Consultant, educator & COO
+                            <p class="text-base text-gray-900 dark:text-gray-400">Business Consultant, Educator & COO
                                 The Signmakers Group</p>
-                            <p class="text-base text-gray-500 dark:text-gray-400"><time pubdate datetime="{{ .Date.Format "2006-01-02" }}"
+                            <p class="text-base text-gray-900 dark:text-gray-400"><time pubdate datetime="{{ .Date.Format "2006-01-02" }}"
                                     title="{{ .Date.Format "January 2nd, 2006" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
                         </div>
                     </div>
@@ -33,7 +35,7 @@
                     {{ .Title }}</h1>
             </header>
 
-            <div class="content prose prose-lg max-w-none text-tlgray-700 leading-relaxed mx-auto mb-12">
+            <div class="content prose prose-lg max-w-none leading-relaxed text-gray-900 mx-auto mb-12">
                 {{.Content}}
             </div>
 
