@@ -77,16 +77,22 @@ enableRobotsTXT = true
     weight = 1
 
   [[menu.main]]
+    identifier = "team"
+    name = "Team"
+    url = "/team/"
+    weight = 2
+
+  [[menu.main]]
     identifier = "blog"
     name = "Blog"
     url = "/blog/"
-    weight = 2
+    weight = 3
 
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 3
+    weight = 4
 
   # Footer Menu
   [[menu.footer]]

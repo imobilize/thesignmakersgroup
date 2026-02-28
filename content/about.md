@@ -3,17 +3,15 @@ title: "About"
 description: "Hugo, the world's fastest framework for building websites"
 date: "2019-02-28"
 author: "Hugo Authors"
+type: "page"
+layout: "about"
 ---
 
-# What Makes Us Different
-
-### Sector Focus
-
-We specialise solely in sign manufacturing — we understand production workflows, installation logistics, materials, margins, and customer acquisition.
-
-### Decentralised Model
+## What Makes Us Different
 
 We do not strip identity or brand value. Companies continue operating under their established names.
+
+One of the key strengths of the team is their rigorous approach to performance metrics and data-driven decision making. They leverage comprehensive performance analytics to pinpoint inefficiencies and performance gaps, subsequently developing and executing targeted strategies to address these areas. Their focus on setting clear, measurable goals and holding teams accountable facilitates a disciplined execution of the company's strategic initiatives.
 
 ### Operational Support
 
