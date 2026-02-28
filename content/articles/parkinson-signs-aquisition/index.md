@@ -1,7 +1,7 @@
 ---
 author: "Andre Barrett"
 title: "The Parkinson Signs Acquisition"
-date: "2024-03-09"
+date: "2024-11-15"
 description: "The acquisition of Parkinson Signs A Northern Sign Manufacturer"
 image: "images/parkinson-signs.png"
 images: ["images/parkinson-signs.png"]

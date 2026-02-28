@@ -1,0 +1,24 @@
+[
+{
+    "name": "Darren Jacobs",
+    "role": "Founder & CEO",
+    "description": "Darren Jacobs is a UK-based business leader and digital specialist. He is currently the Head of Sales (EMEA) at Zitcha, a retail media platform, where he focuses on retail media and commerce media insights",
+    "image": "images/team/darren-jacobs.webp",
+    "linkedIn": ""
+  },
+  {
+    "name": "Andre Barrett",
+    "role": "Founder & COO",
+    "description": "Andre is an experienced entrepreneur, investor and digital product specialist, and the founder of Barrett Ventures, a portfolio of businesses acquired through strategic M&A. With over 12 years running a digital agency, he has led the development and launch of web and mobile products for major brands including Sky, Sainsbury’s and JPMorgan Chase. Combining deep expertise in digital marketing with a strong background in finance — including CFA studies and a CQF qualification — Andre now focuses on acquiring and scaling profitable SMEs, driving growth through digital transformation, operational efficiency and strategic leadership.",
+    "image": "images/team/andre-barrett.jpg",
+    "linkedIn": "https://uk.linkedin.com/in/andre-barrett"
+  },
+
+    {
+    "name": "Ian Parkinson",
+    "role": "Non-Executive Director",
+    "description": "Ian Parkinson has led Parkinson Signs for over 30 years, continuing a proud family legacy that spans more than 80 years across three generations. Under Ian’s leadership, the company has strengthened its reputation as a reliable, high-quality B2B sign manufacturer, serving well-known national brands such as Thwaites Brewery and O2 across multiple sites and venues. With a focus on operational excellence, craftsmanship and long-term client relationships, Ian has built a highly experienced team — many of whom have been with the business for decades.",
+    "image": "images/team/ian-parkinson.png",
+    "linkedIn": "https://uk.linkedin.com/in/parkinson-signs-ian-parkinson-8b0486b1"
+  }
+]

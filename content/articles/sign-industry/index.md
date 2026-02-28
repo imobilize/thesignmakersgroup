@@ -1,7 +1,7 @@
 ---
 author: "Andre Barrett"
 title: "The UK Sign Manufacturing Market"
-date: "2024-03-09"
+date: "2024-05-21"
 description: "The UK Sign Manufacturing Market: A Fragmented Industry Ripe for Consolidation"
 image: "images/uk-shopfront-signage.jpg"
 images: ["images/uk-shopfront-signage.jpg"]

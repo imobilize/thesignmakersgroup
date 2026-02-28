@@ -1,7 +1,7 @@
 ---
 author: "Andre Barrett"
 title: "The Hub And Spoke Consolidation Model"
-date: "2024-03-09"
+date: "2025-04-09"
 description: "The Hub & Spoke Consolidation Model For The UK Sign Industry"
 image: "images/vintage-and-vine-uk-sign-industry.jpg"
 images: ["images/vintage-and-vine-uk-sign-industry.jpg"]
