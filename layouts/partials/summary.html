@@ -1,34 +1,41 @@
 <div class="w-full px-2 lg:max-w-full lg:flex mt-3 lg:px-0 duration-500 hover:-translate-y-1 hover:shadow-md">
   {{ if .Params.image }}
-  {{- $src := .Page.Resources.Get .Params.image -}}
 
-  <img alt="{{.Title}}" class="aspect-video object-cover w-full lg:h-44"
-    src="{{ $src.RelPermalink }}" />
-  {{ else }}
-  <img alt="{{.Title}}" class="aspect-video object-cover w-full lg:h-44"
-    src='{{ "/img/default.jpg" | relURL }}'>
+  {{ $featured := .Params.image }}
+  {{ with .Page.Resources.Get $featured }}
+  {{ $small := (.Resize "400x webp q100").RelPermalink }}
+  {{ $medium := (.Resize "550x webp q100").RelPermalink }}
+  {{ $large := (.Resize "900x webp q100").RelPermalink }}
+  {{ $postimage := (.Resize "600x webp q100").RelPermalink }}
+  <img src="{{ $postimage }}" srcset="
+                  {{- with $small -}}, {{.}} 400w{{- end -}}
+                  {{- with $medium -}}, {{.}} 550w{{- end -}}
+                  {{- with $large -}}, {{.}} 768w{{- end -}}
+                  {{- with $postimage -}}, {{.}} 1100w{{- end -}}" class="aspect-video object-cover w-full h-54"
+    alt="{{ .Params.title }}" />
   {{ end }}
-  <div
-    class="relative pl-4 p-6 justify-between leading-normal max-w-full w-full">
+  {{ else }}
+  <img alt="{{.Title}}" class="aspect-video object-cover w-full h-54" src='{{ "/img/default.jpg" | relURL }}'>
+  {{ end }}
+  <div class="relative pl-4 p-6 justify-between leading-normal max-w-full w-full">
     <div class="text-gray-900 font-semibold text-xl mb-2">{{ .Title }}</div>
     <p class="text-gray-700 text-base pb-5">{{ substr .Summary 0 200 | plainify | htmlUnescape }}...</p>
     <div class="flex justify-between">
-    <p class="text-sm text-gray-600 flex flex-row items-center gap-2">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
-        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
-      </svg><time>{{ .Date.Format "2006/01/02" }}</time>
-    </p>
-    <span
-                class="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-slate-100 text-slate-700 hover:bg-slate-200 hover:text-slate-900 focus:ring-slate-500 mt-6"
-                >
-                Read more
-                <svg class="overflow-visible ml-3 text-slate-300 group-hover:text-slate-400"
-                    width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M0 0L3 3L0 6"></path>
-                </svg>
-              </span>
+      <p class="text-sm text-gray-600 flex flex-row items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+        </svg><time>{{ .Date.Format "2006/01/02" }}</time>
+      </p>
+      <span
+        class="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-slate-100 text-slate-700 hover:bg-slate-200 hover:text-slate-900 focus:ring-slate-500 mt-6">
+        Read more
+        <svg class="overflow-visible ml-3 text-slate-300 group-hover:text-slate-400" width="3" height="6"
+          viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path d="M0 0L3 3L0 6"></path>
+        </svg>
+      </span>
     </div>
   </div>
 </div>
