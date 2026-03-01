@@ -3,10 +3,10 @@
 
   {{ $featured := .Params.image }}
   {{ with .Page.Resources.Get $featured }}
-  {{ $small := (.Resize "400x webp q100").RelPermalink }}
-  {{ $medium := (.Resize "550x webp q100").RelPermalink }}
-  {{ $large := (.Resize "900x webp q100").RelPermalink }}
-  {{ $postimage := (.Resize "600x webp q100").RelPermalink }}
+  {{ $small := (.Resize "400x jpg q100").RelPermalink }}
+  {{ $medium := (.Resize "550x jpg q100").RelPermalink }}
+  {{ $large := (.Resize "900x jpg q100").RelPermalink }}
+  {{ $postimage := (.Resize "600x jpg q100").RelPermalink }}
   <img src="{{ $postimage }}" srcset="
                   {{- with $small -}}, {{.}} 400w{{- end -}}
                   {{- with $medium -}}, {{.}} 550w{{- end -}}
