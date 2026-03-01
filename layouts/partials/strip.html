@@ -10,7 +10,7 @@
                     {{if .logo }}
                     {{ $slide := resources.Get .logo }}
 
-                    <img src="{{ $slide.Permalink }}" alt="{{ .title }}" class="h-34 mb-4 object-contain">
+                    <img src="{{ $slide.RelPermalink }}" alt="{{ .title }}" class="h-34 mb-4 object-contain">
                     {{ end }}
                     <h3 class="text-xl font-semibold">{{ .title }}</h3>
                 </div>
