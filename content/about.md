@@ -1,8 +1,8 @@
 ---
 title: "About"
-description: "Hugo, the world's fastest framework for building websites"
+description: "How The Signmakers Group is adding operational excellence to Sign Manufacturing companies"
 date: "2019-02-28"
-author: "Hugo Authors"
+author: "The Signmakers Group"
 type: "page"
 layout: "about"
 ---

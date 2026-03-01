@@ -17,9 +17,6 @@
 }
 
 @theme {
-  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --color-base-100: oklch(100% 0 0);
   --color-base-200: oklch(98% 0 0);
   --color-base-300: oklch(95% 0 0);
@@ -126,20 +123,6 @@
   --noise: 0;
 }
 
-
-
-body {
-  font-family: var(--font-playfair-display), serif;
-  font-weight: 300;
-}
-
-.content {
-    font-family: var(--font-playfair-display), serif;
-}
-
-html {
-  scroll-behavior: smooth;
-}
 
 @layer base {
   *,

@@ -1,8 +1,8 @@
 ---
 title: "Team"
-description: "Team page for The Signmakers Group"
+description: "The value creation behind The Signmakers Group"
 date: "2019-02-28"
-author: "The Signmakers"
+author: "The Signmakers Group"
 type: "page"
 layout: "team"
 ---

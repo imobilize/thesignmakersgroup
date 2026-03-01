@@ -31,4 +31,15 @@
             } ).mount();
         } );
     </script>
+      <script>
+    const scrollTop = document.querySelector('.scroll-top');
+
+    window.addEventListener('scroll', () => {
+      scrollTop.classList.toggle('visible', window.scrollY > 300);
+    });
+
+    scrollTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
 {{ end }}
